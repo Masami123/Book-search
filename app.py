@@ -1,7 +1,6 @@
 import streamlit as st
-from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.vectorstores import Pinecone
-from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 import os
 
